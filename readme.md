@@ -1,5 +1,7 @@
 # clona el repositorio
 
+https://github.com/kant003/tailwindExercises.git
+
 # instala las dependencias
 
 ```
