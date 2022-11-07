@@ -4,6 +4,8 @@ const Eje010 = () => {
   return (
     <div>
       <h1>Ejercicio 013</h1>
+      <img class="img-collapse" src="/src/assets/screen/13.png"></img>
+      
       <p>Añade tailwind al input para:</p>
       <p>El color del texto será blue-200</p>
       <p>El color del fondo será un gradiente de color indigo-500 (el gradiente irá hacia la izquierda)</p>

@@ -4,6 +4,7 @@ const Eje01 = () => {
   return (
     <div>
       <h1>Ejercicio 01</h1>
+      <img class="img-collapse" src="/src/assets/screen/01.png"></img>
       <div className="mb-4">
         <p>
           Corrige el código para que los cards se coloquen en una sola fila.
@@ -12,7 +13,7 @@ const Eje01 = () => {
         <p>Pista: https://tailwindcss.com/docs/flex</p>
         <p>Pista: https://tailwindcss.com/docs/gap</p>
       </div>
-      <div className="flex gap-3">
+      <div className="gap-3">
         <CardSimple />
         <CardSimple />
         <CardSimple />

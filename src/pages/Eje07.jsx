@@ -9,6 +9,8 @@ const Eje07 = () => {
   return (
     <div>
       <h1>Ejercicio 07</h1>
+      <img class="img-collapse" src="/src/assets/screen/07.png"></img>
+      
       <div className="mb-4">
         <p>Corrige las imagenes para:</p>
         <p>que tengan un ancho y alto 3rem</p>

@@ -2,6 +2,8 @@ const Eje05 = () => {
   return (
     <div>
       <h1>Ejercicio 05</h1>
+      <img class="img-collapse" src="/src/assets/screen/05.png"></img>
+      
       <div className="mb-4">
         <p>Modifica el div del título para:</p>
         <p>Por defecto (mobile-first) tendrá un tamaño de fuente xl</p>

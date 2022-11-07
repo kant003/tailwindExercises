@@ -4,6 +4,8 @@ const Eje010 = () => {
   return (
     <div>
       <h1>Ejercicio 011</h1>
+      <img class="img-collapse" src="/src/assets/screen/11.png"></img>
+      
       <p>Añade las clases adecuadas de tailwind para:</p>
       <p>El primer div se escale a la mitad cuando pases el cursor por encima</p>
       <p>El segundo div se escale al doble cuando pases el cursor por encima</p>

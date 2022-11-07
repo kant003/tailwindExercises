@@ -80,3 +80,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.img-collapse:hover{
+  width: 100%;
+}
+
+.img-collapse{
+  width: 10%;
+  border: 1px solid blue;
+  padding: 3px;
+}

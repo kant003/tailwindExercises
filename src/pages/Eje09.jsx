@@ -4,6 +4,8 @@ const Eje09 = () => {
   return (
     <div>
       <h1>Ejercicio 09</h1>
+      <img class="img-collapse" src="/src/assets/screen/09.png"></img>
+      
       <div className="mb-4">
         <p>Da estilo al siguiente botón:</p>
         <p>Tendrá el texto de color blanco</p>

@@ -3,6 +3,8 @@ const Eje08 = () => {
   return (
     <div>
       <h1>Ejercicio 08</h1>
+      <img class="img-collapse" src="/src/assets/screen/08.png"></img>
+      
       <div className="mb-4">
         <p>Da estilo al siguiente botón:</p>
         <p>Tendrá un padding de 3 (0.75rem)</p>

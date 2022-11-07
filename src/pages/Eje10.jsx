@@ -4,6 +4,8 @@ const Eje010 = () => {
   return (
     <div>
       <h1>Ejercicio 010</h1>
+      <img class="img-collapse" src="/src/assets/screen/10.png"></img>
+      
       <p>
         Corrige el código para que estos cards aparezcan en varias columnas
       </p>

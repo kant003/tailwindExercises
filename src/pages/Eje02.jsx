@@ -2,6 +2,8 @@ const Eje02 = () => {
   return (
     <div>
       <h1>Ejercicio 02</h1>
+      <img class="img-collapse" src="/src/assets/screen/02.png"></img>
+      
       <div className="mb-4">
         <p>Corrige el código para que:</p>
         <p>Las 2 imagenes tengan un borde de grosor de 8 pixeles</p>

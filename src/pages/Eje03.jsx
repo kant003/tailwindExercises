@@ -2,6 +2,8 @@ const Eje03 = () => {
   return (
     <div>
       <h1>Ejercicio 03</h1>
+      <img class="img-collapse" src="/src/assets/screen/03.png"></img>
+      
       <div className="mb-4">
         <p>Modifica los parrafos según se indica:</p>
         <p>El primer párrafo tendrá el texto de color naranja y la fuente de la familia 'mono'</p>

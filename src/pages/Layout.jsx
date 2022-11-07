@@ -13,7 +13,7 @@ const Layout = () => {
   return (
     <>
       <nav>
-        <ul className="flex flex-row gap-4">
+        <ul className="flex flex-row gap-4 flex-wrap">
           <li>
             <Link to="/">Home</Link>
           </li>
