@@ -1,6 +1,6 @@
 import CardSimple from '../components/CardSimple'
 
-const Eje010 = () => {
+const Eje014 = () => {
   return (
     <div>
       <h1>Ejercicio 014</h1>
@@ -22,4 +22,4 @@ const Eje010 = () => {
   )
 }
 
-export default Eje010
+export default Eje014

@@ -1,6 +1,6 @@
 import CardBox from '../components/CardBox'
 
-const Eje010 = () => {
+const Eje011 = () => {
   return (
     <div>
       <h1>Ejercicio 011</h1>
@@ -47,4 +47,4 @@ const Eje010 = () => {
   )
 }
 
-export default Eje010
+export default Eje011
