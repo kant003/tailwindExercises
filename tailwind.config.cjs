@@ -6,15 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      keyframes: {
-        myFadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
-        }
-      },
-      animation: {
-        myFadeIn: 'myFadeIn 2s ease-in-out infinite',
-      }
+     
     },
   },
   plugins: [],

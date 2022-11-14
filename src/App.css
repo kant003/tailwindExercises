@@ -4,36 +4,14 @@
   padding: 2rem;
 }
 
-/* Explicar si añadimos el 50%
- Explicar si cambiamos duration
- añadir un animation-delay:2s
- */
 
 
-.fadeIn:hover {
-  animation-name: fadeIn;
-  animation-duration: 2s;
 
 
-  /* animation-delay: 0s; */
-  /*animation-iteration-count: 3;*/  /*infinte*/
-  /*animation-direction: normal;*/ /* normal reverse, alternate usa 2 frames */
 
 
-  /* duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name */
-}
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  /*50%{
-    apacity: 0.8;
-  }*/
-  100% {
-    opacity: 1;
-  }
-}
+
 
 
 .slideInUp {
