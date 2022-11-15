@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.image{
+  @apply w-12 h-12 rounded-full object-cover;
+}
+
 .button-blue{
   background-color: #3490dc;
   padding: .5rem 1rem;
