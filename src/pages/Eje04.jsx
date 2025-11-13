@@ -19,7 +19,7 @@ const Eje04 = () => {
         <p>Pista: https://tailwindcss.com/docs/box-shadow-color</p>
         <p>Pista: https://tailwindcss.com/docs/border-radius</p>
       </div>
-      <div className='w-1/3 bg-cyan-200 text-black p-4 shadow-lg shadow-cyan-500/50 rounded-lg'>
+      <div className='w-1/3'>
         <Card/>
       </div>
     </div>

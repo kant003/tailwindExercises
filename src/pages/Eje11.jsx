@@ -20,26 +20,26 @@ const Eje011 = () => {
       <p>Pista: https://tailwindcss.com/docs/translate</p>
       <p>Pista: https://tailwindcss.com/docs/skew</p>
 
-      <div className="flex gap-3">
-        <div className="hover:scale-50 button-blue">
+      <div className="">
+        <div className="">
           uno
         </div>
-        <div className="hover:scale-[2] button-blue">
+        <div className="">
           dos
         </div>
-        <div className="hover:rotate-45 button-blue">
+        <div className="">
           tres
         </div>
-        <div className="hover:rotate-45 hover:origin-top-left button-blue">
+        <div className="">
           cuatro
         </div>
-        <div className="hover:-translate-y-12 button-blue">
+        <div className="">
           cinco
         </div>
-        <div className="hover:skew-y-12 hover:skew-x-12 button-blue">
+        <div className="">
           seis
         </div>
-        <div className="hover:opacity-80 button-blue">
+        <div className="">
           siete
         </div>
       </div>

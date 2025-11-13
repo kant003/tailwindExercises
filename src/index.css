@@ -17,13 +17,11 @@
     background-image: url("/src/assets/fondo2.jpg");
   }
 
-  .animate-myFadeIn {
-    animation: fadeInKey 2s infinite alternate;
-  }
+  
 }
 
 .image{
-  @apply w-12 h-12 rounded-full object-cover;
+  
 }
 
 .button-blue{

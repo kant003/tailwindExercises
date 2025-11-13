@@ -11,9 +11,9 @@ const Eje015 = () => {
 
       <div className="m-8 flex gap-8">
         <h3>Animaciones usando css</h3>
-        <img className="fadeIn" src="/src/assets/react.png" alt="react" width="100"/>
-        <img className='slideInUp' src="/src/assets/react.png" alt="react" width="100"/>
-        <img className='hinge' src="/src/assets/react.png" alt="react" width="100"/>
+        <img className="" src="/src/assets/react.png" alt="react" width="100"/>
+        <img className='' src="/src/assets/react.png" alt="react" width="100"/>
+        <img className='' src="/src/assets/react.png" alt="react" width="100"/>
         {/* 
         <img className='slideInLeft' src="/src/assets/react.png" alt="react" width="100"/>
         <img className='bounceIn' src="/src/assets/react.png" alt="react" width="100"/>
@@ -24,7 +24,7 @@ const Eje015 = () => {
 
       <div className="m-8 flex gap-8">
         <h3>Animaciones usando tailwind</h3>
-        <img className="hover:animate-myFadeIn" src="/src/assets/react.png" alt="react" width="100" />
+        <img className="" src="/src/assets/react.png" alt="react" width="100" />
       </div>
     </div>
   )
