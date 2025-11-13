@@ -1,6 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+
+/* 1) Animación */
+@keyframes fadeInKey {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* 2) Utilidades personalizadas (fondos + animación) */
+@layer utilities {
+  .bg-fondo1 {
+    background-image: url("/src/assets/fondo1.jpg");
+  }
+
+  .bg-fondo2 {
+    background-image: url("/src/assets/fondo2.jpg");
+  }
+
+  .animate-myFadeIn {
+    animation: fadeInKey 2s infinite alternate;
+  }
+}
 
 .image{
   @apply w-12 h-12 rounded-full object-cover;
