@@ -1,49 +1,24 @@
-# clona el repositorio
+# Ejercicios de Tailwind CSS
 
-https://github.com/kant003/tailwindExercises.git
+Requiere Node.js 20.19 o posterior, o 22.12 o posterior.
 
-# instala las dependencias
+## Instalación
 
-```
+```sh
 npm install
 ```
 
-# Creando el proyecto en con vite
+## Desarrollo
 
-```
-npm create vite@latest
-```
-
-# Añadiendo tailwind a vite
-
-```
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-# Configurando tailwind correctamente
-
-Añade al fichero **tailwind.config.cjs**
-```
-    content: [
-        "./index.html",
-        "./src/**/*.{html,js,ts,jsx,tsx}",
-    ],
-```
-
-# Añade las directivas de tailwind a tus hojas de estilo.
-
-Añade al fichero **style.css**
-
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-
-# Arrancar la app
-
-```
+```sh
 npm run dev
 ```
+
+Para generar y previsualizar la versión de producción:
+
+```sh
+npm run build
+npm run preview
+```
+
+Tailwind CSS está integrado mediante el plugin de Vite en `vite.config.js` y se importa en `src/index.css`.
